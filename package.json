@@ -1,0 +1,23 @@
+{
+    "name": "redis",
+    "types": ["pack"],
+    "version": "0.1.0",
+    "homepage": "https://github.com/Temelio/pack-redis",
+    "author": "Alexandre Chaussier",
+    "description": "Redis monitoring checks, using Temelio plugins",
+    "contributors": [
+        {
+            "name": "Alexandre Chaussier",
+            "email": "alexandre.chaussier@temelio.com"
+        }
+    ],
+    "repository": "https://github.com/Temelio/pack-redis",
+   " keywords": [
+        "pack",
+        "redis"
+    ],
+   " dependencies": {
+        "shinken": ">=2.4.3"
+    },
+    "license": "MIT"
+}

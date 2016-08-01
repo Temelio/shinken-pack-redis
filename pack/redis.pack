@@ -1,0 +1,95 @@
+{
+    "name": "redis",
+    "description": "Checks to monitor Redis databases",
+    "path": "redis",
+    "macros": {
+        _"BLOCKED_CLIENTS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for blocked_clients info value"
+        },
+        _"BLOCKED_CLIENTS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for blocked_clients info value"
+        },
+        "_CONNECTED_CLIENTS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for connected_clients info value"
+        },
+        "_CONNECTED_CLIENTS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for connected_clients info value"
+        },
+        "_CONNECTED_SLAVES_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for connected_slaves info value"
+        },
+        "_CONNECTED_SLAVES_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for connected_slaves info value"
+        },
+        "_EVICTED_KEYS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for evicted_keys info value"
+        },
+        "_EVICTED_KEYS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for evicted_keys info value"
+        },
+        "_EXPIRED_KEYS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for expired_keys info value"
+        },
+        "_EXPIRED_KEYS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for expired_keys info value"
+        },
+        "_INSTANTANEOUS_OPS_PER_SEC_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for instantaneous_ops_per_sec info value"
+        },
+        "_INSTANTANEOUS_OPS_PER_SEC_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for instantaneous_ops_per_sec info value"
+        },
+        "_HIT_RATE_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for hit_rate info value"
+        },
+        "_HIT_RATE_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for hit_rate info value"
+        },
+        "_MEM_FRAGMENTATION_RATIO_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for mem_fragmentation_ratio info value"
+        },
+        "_MEM_FRAGMENTATION_RATIO_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for mem_fragmentation_ratio info value"
+        },
+        "_RDB_CHANGES_SINCE_LAST_SAVE_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for rdb_changes_since_last_save info value"
+        },
+        "_RDB_CHANGES_SINCE_LAST_SAVE_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for rdb_changes_since_last_save info value"
+        },
+        "_REJECTED_CONNECTIONS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for rejected_connections info value"
+        },
+        "_REJECTED_CONNECTIONS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for rejected_connections info value"
+        },
+        "_UPTIME_IN_SECONDS_WARN": {
+            "type": "integer",
+            "description": "Warning threshold for uptime_in_seconds info value"
+        },
+        "_UPTIME_IN_SECONDS_CRIT": {
+            "type": "integer",
+            "description": "Critical threshold for uptime_in_seconds info value"
+        }
+    }
+}
