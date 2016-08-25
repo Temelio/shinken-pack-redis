@@ -1,7 +1,7 @@
 {
     "name": "redis",
     "types": ["pack"],
-    "version": "0.1.0",
+    "version": "0.1.2",
     "homepage": "https://github.com/Temelio/pack-redis",
     "author": "Alexandre Chaussier",
     "description": "Redis monitoring checks, using Temelio plugins",
